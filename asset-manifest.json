@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/NewPortfolio/static/css/main.ccfbfca1.chunk.css",
+    "main.js": "/NewPortfolio/static/js/main.651a9297.chunk.js",
+    "main.js.map": "/NewPortfolio/static/js/main.651a9297.chunk.js.map",
+    "runtime-main.js": "/NewPortfolio/static/js/runtime-main.f99cf176.js",
+    "runtime-main.js.map": "/NewPortfolio/static/js/runtime-main.f99cf176.js.map",
+    "static/js/2.8476cf91.chunk.js": "/NewPortfolio/static/js/2.8476cf91.chunk.js",
+    "static/js/2.8476cf91.chunk.js.map": "/NewPortfolio/static/js/2.8476cf91.chunk.js.map",
+    "static/js/3.f78c848d.chunk.js": "/NewPortfolio/static/js/3.f78c848d.chunk.js",
+    "static/js/3.f78c848d.chunk.js.map": "/NewPortfolio/static/js/3.f78c848d.chunk.js.map",
+    "index.html": "/NewPortfolio/index.html",
+    "static/css/main.ccfbfca1.chunk.css.map": "/NewPortfolio/static/css/main.ccfbfca1.chunk.css.map",
+    "static/js/2.8476cf91.chunk.js.LICENSE.txt": "/NewPortfolio/static/js/2.8476cf91.chunk.js.LICENSE.txt",
+    "static/media/DJI_0043_Trim.0ffedf88.mp4": "/NewPortfolio/static/media/DJI_0043_Trim.0ffedf88.mp4",
+    "static/media/IMG_1244.a9e7a40a.jpg": "/NewPortfolio/static/media/IMG_1244.a9e7a40a.jpg",
+    "static/media/Login.a61a0721.png": "/NewPortfolio/static/media/Login.a61a0721.png",
+    "static/media/ME.34e3496c.jpg": "/NewPortfolio/static/media/ME.34e3496c.jpg",
+    "static/media/WeatherDash1.de25220f.png": "/NewPortfolio/static/media/WeatherDash1.de25220f.png",
+    "static/media/background1.643d9903.jpg": "/NewPortfolio/static/media/background1.643d9903.jpg",
+    "static/media/budget.b38ffb88.png": "/NewPortfolio/static/media/budget.b38ffb88.png",
+    "static/media/main-landing-page.d24cac5e.png": "/NewPortfolio/static/media/main-landing-page.d24cac5e.png",
+    "static/media/passwordgen.00995a24.png": "/NewPortfolio/static/media/passwordgen.00995a24.png",
+    "static/media/quiz.877477e0.png": "/NewPortfolio/static/media/quiz.877477e0.png",
+    "static/media/teamgen.66dbbc8d.png": "/NewPortfolio/static/media/teamgen.66dbbc8d.png",
+    "static/media/todo.4f810b20.png": "/NewPortfolio/static/media/todo.4f810b20.png",
+    "static/media/workday.96dd200a.png": "/NewPortfolio/static/media/workday.96dd200a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f99cf176.js",
+    "static/js/2.8476cf91.chunk.js",
+    "static/css/main.ccfbfca1.chunk.css",
+    "static/js/main.651a9297.chunk.js"
+  ]
+}
