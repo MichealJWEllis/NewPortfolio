@@ -4,7 +4,7 @@ import { Typography, Box, Button } from '@material-ui/core'
 import Navbar from './Navbar'
 import Header from './Header'
 import DownloadLink from 'react-download-link'
-import Footer from './Footer'
+// import Footer from './Footer'
 
 
 export const Resume = () => {
