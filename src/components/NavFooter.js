@@ -31,18 +31,21 @@ export const NavFooter = () => {
                 style={{ padding: 0 }}
                 icon={<LinkedInIcon />}
                 href="https://www.linkedin.com/in/michealjwellissr/"
+                target="_blank"
             />
             <BottomNavigationAction
                 className={classes.root}
                 style={{ padding: 0 }}
                 icon={<GitHubIcon />}
                 href="https://github.com/MichealJWEllis"
+                target="_blank"
             />
             <BottomNavigationAction
                 className={classes.root}
                 style={{ padding: 0 }}
                 icon={<EmailIcon />}
                 href="https://www.gmail.com"
+                target="_blank"
             />
 
         </BottomNavigation>

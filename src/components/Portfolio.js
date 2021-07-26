@@ -54,7 +54,7 @@ export const Portfolio = () => {
                         </CardActionArea>
                         <CardActions>
 
-                            <Button size="small" color="primary" href="https://michealjwellis.github.io/when-to-fly/">
+                            <Button size="small" color="primary" href="https://michealjwellis.github.io/when-to-fly/" target="_blank">
                                 Demo
                             </Button>
                         </CardActions>
@@ -82,7 +82,7 @@ export const Portfolio = () => {
                         </CardActionArea>
                         <CardActions>
 
-                            <Button size="small" color="primary" href="https://bbrm.herokuapp.com/">
+                            <Button size="small" color="primary" href="https://bbrm.herokuapp.com/" target="_blank">
                                 Demo
                             </Button>
                         </CardActions>
@@ -110,7 +110,7 @@ export const Portfolio = () => {
                         </CardActionArea>
                         <CardActions>
 
-                            <Button size="small" color="primary" href="https://michealjwellis.github.io/Password-Generator/">
+                            <Button size="small" color="primary" href="https://michealjwellis.github.io/Password-Generator/" target="_blank">
                                 Demo
                             </Button>
                         </CardActions>
@@ -138,7 +138,7 @@ export const Portfolio = () => {
                         </CardActionArea>
                         <CardActions>
 
-                            <Button size="small" color="primary" href="https://michealjwellis.github.io/JavaScript_Quiz/">
+                            <Button size="small" color="primary" href="https://michealjwellis.github.io/JavaScript_Quiz/" target="_blank">
                                 Demo
                             </Button>
                         </CardActions>
@@ -166,7 +166,7 @@ export const Portfolio = () => {
                         </CardActionArea>
                         <CardActions>
 
-                            <Button size="small" color="primary" href="https://github.com/MichealJWEllis/team_profile_generator">
+                            <Button size="small" color="primary" href="https://github.com/MichealJWEllis/team_profile_generator" target="_blank">
                                 Demo
                             </Button>
                         </CardActions>
@@ -194,7 +194,7 @@ export const Portfolio = () => {
                         </CardActionArea>
                         <CardActions>
 
-                            <Button size="small" color="primary" href="https://nameless-woodland-32392.herokuapp.com/notes">
+                            <Button size="small" color="primary" href="https://nameless-woodland-32392.herokuapp.com/notes" target="_blank">
                                 Demo
                             </Button>
                         </CardActions>
@@ -222,7 +222,7 @@ export const Portfolio = () => {
                         </CardActionArea>
                         <CardActions>
 
-                            <Button size="small" color="primary" href="https://michealjwellis.github.io/Weather_DashBoard/">
+                            <Button size="small" color="primary" href="https://michealjwellis.github.io/Weather_DashBoard/" target="_blank">
                                 Demo
                             </Button>
                         </CardActions>
@@ -250,7 +250,7 @@ export const Portfolio = () => {
                         </CardActionArea>
                         <CardActions>
 
-                            <Button size="small" color="primary" href="https://michealjwellis.github.io/Work_Day_Scheduler/">
+                            <Button size="small" color="primary" href="https://michealjwellis.github.io/Work_Day_Scheduler/" target="_blank">
                                 Demo
                             </Button>
                         </CardActions>
@@ -278,7 +278,7 @@ export const Portfolio = () => {
                         </CardActionArea>
                         <CardActions>
 
-                            <Button size="small" color="primary" href="https://budget-tracker0511.herokuapp.com/">
+                            <Button size="small" color="primary" href="https://budget-tracker0511.herokuapp.com/" target="_blank">
                                 Demo
                             </Button>
                         </CardActions>
