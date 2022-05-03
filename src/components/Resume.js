@@ -3,7 +3,7 @@ import '../App.css'
 import { Typography, Box, Button } from '@material-ui/core'
 import Navbar from './Navbar'
 import Header from './Header'
-import DownloadLink from 'react-download-link'
+import ExampleDoc from '../assets/images/resume.pdf'
 // import Footer from './Footer'
 
 
@@ -45,11 +45,14 @@ export const Resume = () => {
                         <ul>
                             <li><span></span>
                                 <div>
-                                    <Button href="../assets/images/resume.pdf" style={{  background: "green" }}><DownloadLink style={{ color: "white",textDecoration: "none" }}
+                                    <a href={ExampleDoc} download="MyExampleDoc" target='_blank' rel="noreferrer">
+                                        <Button style={{ background: 'blue', color: 'white' }}>DOWNLOAD RESUME</Button>
+                                    </a>
+                                    {/* <Button href="../assets/images/resume.pdf" style={{ background: "blue" }}><DownloadLink style={{ color: "white", textDecoration: "none" }}
                                         label="Download Resume"
                                         filename="../assets/images/resume.pdf"
                                         exportFile={() => "Client side cache data here…"}
-                                    /></Button>
+                                    /></Button> */}
                                     <div className="title">( I.T Help-Desk Analyst / Full-Stack Developer )</div>
                                     <div className="info">
                                         {erie.split('\n\n').map(paragraph =>
@@ -97,7 +100,7 @@ export const Resume = () => {
                 </Box>
             </Box>
 
-        </div>
+        </div >
 
 
     )

@@ -1,8 +1,6 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 import React from 'react'
 import {
-    Typography,
-    Avatar,
-    Grid,
     Box
 } from "@material-ui/core"
 import chiImage from '../assets/images/IMG_1244.jpg'

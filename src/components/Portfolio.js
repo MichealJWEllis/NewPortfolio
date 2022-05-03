@@ -22,6 +22,9 @@ import toDo from "../assets/images/projectimages/todo.png"
 import weatherDash from "../assets/images/projectimages/WeatherDash1.png"
 import workDay from "../assets/images/projectimages/workday.png"
 import budget from "../assets/images/projectimages/budget.png"
+import task from "../assets/images/projectimages/task.png"
+import todo from "../assets/images/projectimages/todo1.png"
+
 
 export const Portfolio = () => {
     return (
@@ -222,7 +225,7 @@ export const Portfolio = () => {
                         </CardActionArea>
                         <CardActions>
 
-                            <Button size="small" color="primary" href="https://michealjwellis.github.io/Weather_DashBoard/" target="_blank">
+                            <Button size="small" color="primary" href="https://michealjwellis.github.io/mod6prodRedo/" target="_blank">
                                 Demo
                             </Button>
                         </CardActions>
@@ -266,23 +269,80 @@ export const Portfolio = () => {
                             />
                             <CardContent>
                                 <Typography gutterBottom variant="h5">
-                                    Budget Tracker
+                                    GIT it done!
                                 </Typography>
                                 <Typography variant="body2" color="textSecondary" component="p">
-                                    This application takes an existing budget tracker application and update it to allow for offline access and functionality. The user will be able to add expenses and deposits to their budget with or without a connection. If the user enters transactions offline, the total should be updated when they're brought back online.
+                                    This application uses Git API to gather information on any user on the GIT hub platform and display that information in categories dependent on what code base selected.  Fully designed with HTML and CSS and JavaScript used for the back end API communication.
                                 </Typography>
                                 <Typography gutterBottom variant="h5">
-                                    Code Used: HTML, CSS, JavaScript
+                                    Code Used: JS, HTML, CSS, API integration
                                 </Typography>
                             </CardContent>
                         </CardActionArea>
                         <CardActions>
 
-                            <Button size="small" color="primary" href="https://budget-tracker0511.herokuapp.com/" target="_blank">
+                            <Button size="small" color="primary" href="https://michealjwellis.github.io/mod6_redo/" target="_blank">
                                 Demo
                             </Button>
                         </CardActions>
 
+                    </Card>
+                    <br></br>
+                    <Card style={{ background: "rgba(189, 189, 208, 0.535)" }}>
+                        <CardActionArea>
+                            <CardMedia
+                                component="img"
+                                alt=""
+
+                                image={task}
+                            />
+                            <CardContent>
+                                <Typography gutterBottom variant="h5">
+                                    Task Manager
+                                </Typography>
+                                <Typography variant="body2" color="textSecondary" component="p">
+                                    This project is an improved version of an pervious version of the application.  This application will allow you to add tasks and save them to the DOM which will load each time you revisit the page.  Using this application can save on time management and allow a user to stay organized during their day to day.  Site is enabled with drag and dop for tasks and functionaly for a complete task manager.
+                                </Typography>
+                                <Typography gutterBottom variant="h5">
+                                    Code Used: JS, HTML, Bootstrap, CSS, jQuery, Moment.JS
+                                </Typography>
+                            </CardContent>
+                        </CardActionArea>
+                        <CardActions>
+
+                            <Button size="small" color="primary" href="https://bbrm.herokuapp.com/" target="_blank">
+                                Demo
+                            </Button>
+                        </CardActions>
+                    </Card>
+                    <br></br>
+                    <Card style={{ background: "rgba(189, 189, 208, 0.535)" }}>
+                        <CardActionArea>
+                            <CardMedia
+                                component="img"
+                                alt=""
+
+                                image={todo}
+                            />
+                            <CardContent>
+                                <Typography gutterBottom variant="h5">
+                                    ToDo App
+                                </Typography>
+                                <Typography variant="body2" color="textSecondary" component="p">
+                                    This application will allow a user to organize their simple todo's for a typical day.  The site will remember the actions of the user via the DOM and will allow for consistant use of the application.
+                                </Typography>
+                                <Typography gutterBottom variant="h5">
+                                    Code Used: JS, HTML, CSS
+                                </Typography>
+                            </CardContent>
+                        </CardActionArea>
+                        <CardActions>
+
+                            <Button size="small" color="primary" href="https://michealjwellis.github.io/mod4_redo/
+" target="_blank">
+                                Demo
+                            </Button>
+                        </CardActions>
                     </Card>
 
                 </Grid>

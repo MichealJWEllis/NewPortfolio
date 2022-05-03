@@ -65,7 +65,7 @@ form.MuiBox-root {
   box-sizing: border-box;
 }
 .MuiGrid-root {
-  padding-left: 180px;
+  padding: 0px 40px 60px 60px;
   margin-bottom: 50px;
 }
 .MuiCardMedia-img {
@@ -112,13 +112,17 @@ form.MuiBox-root {
 }
 
 .container ul {
-  margin: 0;
-  margin-top: 50px;
-  list-style: none;
+  /* margin: 0;
+  margin-top: 50px; */
+  padding-left: 100px;
+  /* list-style: none; */
   position: relative;
-  padding: 1px 475px;
+  padding: 60px 40px 60px 190px;
   color: #fff;
   font-size: 21px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
 }
 .container ul:before {
   content: "";

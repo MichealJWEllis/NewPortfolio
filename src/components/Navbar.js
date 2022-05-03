@@ -1,39 +1,42 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from 'react'
 import { Link } from "react-router-dom"
 import { makeStyles } from '@material-ui/core/styles'
 import SideSlider from "@material-ui/core/Drawer"
-import sideBarImage from '../assets/images/background1.jpg'
 import {
     AppBar,
     Toolbar,
     ListItem,
     ListItemIcon,
-    IconButton,
     ListItemText,
     Avatar,
-    Divider,
     List,
-    Typography,
     Box
 } from '@material-ui/core'
 import {
-    ArrowBack,
     AssignmentInd,
     Home,
     Apps,
-    ContactMail
 } from '@material-ui/icons'
 import avatar from "../assets/images/ME.jpg"
 import NavFooter from "../components/NavFooter"
+import background from "../assets/images/background1.jpg"
 
 
 // CSS STYLES
 
 const myStyles = makeStyles(theme => ({
     menuBar: {
-        width: 425,
+        width: 400,
         background: "black",
         height: "100%",
+        backgroundImage: `url(${background})`,
+        // backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat',
+        // backgroundPosition: 'bottom center',
+        Transform: 'rotate(-45deg)',
+        backgroundPosition: '30% 140%',
+        top: '60px'
 
     },
     avatar: {
@@ -48,7 +51,7 @@ const myStyles = makeStyles(theme => ({
         color: "white",
         width: 50,
         height: 50,
-        marginRight: theme.spacing(2)
+        marginRight: theme.spacing(1)
 
 
     }
@@ -69,12 +72,12 @@ const iconMenu = [
         listIcon: <Apps />,
         listText: "Portfolio",
         listPath: "/Portfolio"
-    },
-    {
-        listIcon: <ContactMail />,
-        listText: "Contact",
-        listPath: "/Contact"
     }
+    // {
+    //     listIcon: <ContactMail />,
+    //     listText: "Contact",
+    //     listPath: "/Contact"
+    // }
 ]
 
 
@@ -93,8 +96,10 @@ export const Navbar = () => {
     const sideBar = slide => (
 
         <Box className={classes.menuBar} component="div" onClick={sliderMove("right", false)}>
-            <Avatar className={classes.avatar} src={avatar} alt="MJWE Avatar image" />
-            <Divider />
+            <Avatar className={classes.avatar} src={avatar} alt="MJWE Avatar image" style={{
+                backgroundImage: `url("../assets/images/background1.jpg")`
+            }} />
+            {/* <Divider /> */}
             <List>
                 {iconMenu.map((lsItem, key) => (
                     <ListItem button key={key} component={Link} to={lsItem.listPath}>
@@ -122,8 +127,7 @@ export const Navbar = () => {
                         <SideSlider
                             anchor="left"
                             open={state.right}
-                            onClose={sliderMove("right", false)}
-                        >
+                            onClose={sliderMove("right", false)} >
                             {sideBar("right")}
                             <NavFooter />
                         </SideSlider>
