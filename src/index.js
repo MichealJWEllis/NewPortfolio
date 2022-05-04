@@ -1,20 +1,42 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { BrowserRouter as Router } from 'react-router-dom';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import { render } from "react-dom";
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
+import './App.css';
+import HomePage from './pages/HomePage'
+import Resume from './pages/Resume';
+import Portfolio from "./pages/Portfolio";
+import CssBaseline from '@material-ui/core/CssBaseline'
 
-ReactDOM.render(
-
-  <Router basename={process.env.PUBLIC_URL}>
-    <App />
-  </Router>,
-
-  document.getElementById('root')
+const rootElement = document.getElementById("root");
+render(
+  <BrowserRouter>
+    <CssBaseline />
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="resume" element={<Portfolio />} />
+      <Route path="portfolio" element={<Resume />} />
+      <Route path="*" element={
+        <main style={{ padding: "1rem", backgroundColor: "black" }}>
+          <section class="notFound">
+            <div class="img">
+              <img src="https://assets.codepen.io/5647096/backToTheHomepage.png" alt="Back to the Homepage" />
+              <img src="https://assets.codepen.io/5647096/Delorean.png" alt="El Delorean, El Doc y Marti McFly" />
+            </div>
+            <div class="notfound">
+              <h1>404</h1>
+              <h2>PAGE NOT FOUND</h2>
+              <h3>BACK TO HOME?</h3>
+              <a href="/" class="yes">YES</a>
+              <br></br>
+              <a href="https://www.youtube.com/watch?v=G3AfIvJBcGo">NO</a>
+            </div>
+          </section>
+        </main>
+      } />
+    </Routes>
+  </BrowserRouter >,
+  rootElement
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
-

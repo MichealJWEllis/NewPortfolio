@@ -1,87 +1,70 @@
-# Project newportfolio
+# Getting Started with Create React App
 
-## Badge
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# ![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)
+## Available Scripts
 
-## Table of Contents
+In the project directory, you can run:
 
-- [Description](#description)
+### `yarn start`
 
-- [Motivation](#motivation)
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-- [Code Used](#code_used)
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-- [Screenshot](#screenshot)
+### `yarn test`
 
-- [License](#license)
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-- [Contributed](#contributed)
+### `yarn build`
 
-- [Tests](#tests)
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-- [Questions](#questions)
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
----
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Description
+### `yarn eject`
 
-This project uses the React.JS platform to create a working portfolio. I will server content for each page via the app.js file and will appear seamless to the end user. Using React.JS for this portfolio will increase my knowledge of JavaScript and also provide me a coded portfolio that can be used for searching employment.
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
----
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-## Motivation
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-As a new full stack developer I was in need of a portfolio that will showcase my skills via the portfolio and a provide a showcase for my projects.
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
----
+## Learn More
 
-## Code_Used
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-ReactJS, JavaScript, HTML, CSS
+To learn React, check out the [React documentation](https://reactjs.org/).
 
----
+### Code Splitting
 
-## Screenshot
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-![homepage](./src/assets/images/homepage.PNG)
+### Analyzing the Bundle Size
 
----
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-## License
+### Making a Progressive Web App
 
-Link: (https://opensource.org/licenses/Unlicense)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-THE ACCOMPANYING PROGRAM IS PROVIDED UNDER THE TERMS OF THIS (Unlicense) PUBLIC LICENSE (“AGREEMENT”). ANY USE, REPRODUCTION OR DISTRIBUTION OF THE PROGRAM CONSTITUTES RECIPIENT'S ACCEPTANCE OF THIS AGREEMENT.
+### Advanced Configuration
 
----
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-## Contributed:
+### Deployment
 
-All code was contributed by myself.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
----
+### `yarn build` fails to minify
 
-## Tests:
-
-n/a
-
-## Questions
-
-If you have any questions on this repo, please contact mellis.eriecon@gmail.com.
-
-## GitHub
-
-- [GitHub Repository Link: newportfolio](https://github.com/michealjwellis/newportfolio)
-
-- [GitHub Profile Link: michealjwellis](https://github.com/michealjwellis)
-
-- [Live Site: Micheal Jw Ellis Portfolio](https://michealjwellis.github.io/NewPortfolio/)
-
-## CONTRIBUTION:
-
-Made with ❤️ by Micheal Jw Ellis Sr
-
-### Mentions:
-
-No mentions provided
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

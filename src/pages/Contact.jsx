@@ -1,13 +1,13 @@
 import React, { useState } from 'react'
 import '../App.css'
-import Header from './Header'
-import Navbar from './Navbar'
+import Header from '../components/Header'
+import Navbar from '../components/Navbar'
 import {
     TextField, Typography, Button, Grid, Box
 } from "@material-ui/core"
 // import SendIcon from "@material-ui/icons/Send"
 import { withStyles } from '@material-ui/core/styles'
-import Footer from './Footer'
+import Footer from '../components/Footer'
 
 const InputField = withStyles({
     root: {

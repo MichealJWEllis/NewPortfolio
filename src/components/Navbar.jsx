@@ -19,7 +19,7 @@ import {
     Apps,
 } from '@material-ui/icons'
 import avatar from "../assets/images/ME.jpg"
-import NavFooter from "../components/NavFooter"
+import NavFooter from "./NavFooter"
 import background from "../assets/images/background1.jpg"
 
 

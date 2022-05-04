@@ -3,7 +3,7 @@ import Navbar from './Navbar'
 import Header from './Header'
 import Footer from './Footer'
 
-export const HomePage = () => {
+function HomePage() {
     return (
         <div>
             <Navbar />
