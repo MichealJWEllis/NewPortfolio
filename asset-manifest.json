@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/NewPortfolio/static/css/main.3f110aa9.css",
+    "main.js": "/NewPortfolio/static/js/main.64bc1902.js",
+    "static/media/DJI_0043_Trim.mp4": "/NewPortfolio/static/media/DJI_0043_Trim.0ffedf88af0d245c0dab.mp4",
+    "static/media/main-landing-page.png": "/NewPortfolio/static/media/main-landing-page.d24cac5e60e6ca3fe0cf.png",
+    "static/media/WeatherDash1.png": "/NewPortfolio/static/media/WeatherDash1.c38801fe276fbc717e59.png",
+    "static/media/task.png": "/NewPortfolio/static/media/task.fc2db1c96c8d3266b3e8.png",
+    "static/media/IMG_1244.jpg": "/NewPortfolio/static/media/IMG_1244.a9e7a40ac171c05472b6.jpg",
+    "static/media/workday.png": "/NewPortfolio/static/media/workday.96dd200a7a29efdc9f48.png",
+    "static/media/todo1.png": "/NewPortfolio/static/media/todo1.65ce7cbfadbb78c4c46a.png",
+    "static/media/ME.jpg": "/NewPortfolio/static/media/ME.34e3496cb612af5eeee4.jpg",
+    "static/media/resume.pdf": "/NewPortfolio/static/media/resume.eb7861f19420aa51fb1c.pdf",
+    "static/media/teamgen.png": "/NewPortfolio/static/media/teamgen.66dbbc8d85bd37d28958.png",
+    "static/media/budget.png": "/NewPortfolio/static/media/budget.e013d3b7e7a7597c70c6.png",
+    "static/media/background1.jpg": "/NewPortfolio/static/media/background1.a42de4fb3d855b34c002.jpg",
+    "static/media/Login.png": "/NewPortfolio/static/media/Login.a61a07217cbfc6cee584.png",
+    "static/media/passwordgen.png": "/NewPortfolio/static/media/passwordgen.00995a2438d371615bee.png",
+    "static/media/quiz.png": "/NewPortfolio/static/media/quiz.877477e0379f34d5878c.png",
+    "static/media/todo.png": "/NewPortfolio/static/media/todo.4f810b20fe39aa214a4b.png",
+    "index.html": "/NewPortfolio/index.html",
+    "main.3f110aa9.css.map": "/NewPortfolio/static/css/main.3f110aa9.css.map",
+    "main.64bc1902.js.map": "/NewPortfolio/static/js/main.64bc1902.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f110aa9.css",
+    "static/js/main.64bc1902.js"
+  ]
+}
