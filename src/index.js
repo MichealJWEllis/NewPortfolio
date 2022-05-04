@@ -15,7 +15,7 @@ render(
   <BrowserRouter>
     <CssBaseline />
     <Routes>
-      <Route path="/" element={<HomePage />} />
+      <Route exact path="/NewPortfolio" element={<HomePage />} />
       <Route path="resume" element={<Portfolio />} />
       <Route path="portfolio" element={<Resume />} />
       <Route path="*" element={
