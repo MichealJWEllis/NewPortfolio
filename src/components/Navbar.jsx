@@ -61,7 +61,7 @@ const iconMenu = [
     {
         listIcon: <Home />,
         listText: "Home",
-        listPath: "/"
+        listPath: "/NewPortfolio"
     },
     {
         listIcon: <AssignmentInd />,
