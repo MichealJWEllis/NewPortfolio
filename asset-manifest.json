@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/NewPortfolio/static/css/main.3f110aa9.css",
-    "main.js": "/NewPortfolio/static/js/main.1060ebe4.js",
+    "main.js": "/NewPortfolio/static/js/main.58b580fe.js",
     "static/media/DJI_0043_Trim.mp4": "/NewPortfolio/static/media/DJI_0043_Trim.0ffedf88af0d245c0dab.mp4",
     "static/media/main-landing-page.png": "/NewPortfolio/static/media/main-landing-page.d24cac5e60e6ca3fe0cf.png",
     "static/media/WeatherDash1.png": "/NewPortfolio/static/media/WeatherDash1.c38801fe276fbc717e59.png",
@@ -20,10 +20,10 @@
     "static/media/todo.png": "/NewPortfolio/static/media/todo.4f810b20fe39aa214a4b.png",
     "index.html": "/NewPortfolio/index.html",
     "main.3f110aa9.css.map": "/NewPortfolio/static/css/main.3f110aa9.css.map",
-    "main.1060ebe4.js.map": "/NewPortfolio/static/js/main.1060ebe4.js.map"
+    "main.58b580fe.js.map": "/NewPortfolio/static/js/main.58b580fe.js.map"
   },
   "entrypoints": [
     "static/css/main.3f110aa9.css",
-    "static/js/main.1060ebe4.js"
+    "static/js/main.58b580fe.js"
   ]
 }
